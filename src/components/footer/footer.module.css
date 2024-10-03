@@ -1,0 +1,46 @@
+@import url('../../variables.module.css');
+
+.container{
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  background-color: var(--grey1-color);
+  padding: 90px;
+  position: relative;
+  border-radius: 0 0 10px 10px;
+}
+
+.container::before{
+  position: absolute;
+  content: 'Developed by Maiger 2024';
+  width: 90%;
+  top: 90%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-style: solid;
+  border-color: var(--grey2-color);
+  border-width: 1px 0 0 0 ;
+  padding: 10px;
+  text-align: center;
+}
+
+.container> div{
+  flex-grow: 1;
+  flex-basis: 200px;
+  display: grid;
+
+}
+
+.container> div>:first-child{
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.container>:nth-child(4)>span{
+  font-weight: 400;
+  text-wrap: stable;
+}
+
+.container>:nth-child(3)>:last-child{
+  margin-top: 5px;
+}

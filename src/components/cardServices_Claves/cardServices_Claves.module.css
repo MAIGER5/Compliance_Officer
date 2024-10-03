@@ -1,0 +1,49 @@
+@import url('../../variables.module.css');
+
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 30px;
+  padding: 20px;
+}
+
+.container>:nth-child(odd){
+  border-radius: 10% 0% 0% 10% / 10% 10% 10% 10%;
+  
+}
+
+.container>:nth-child(even){
+  border-radius: 0% 10% 10% 0% / 10% 10% 10% 10%;
+}
+
+.boxCard{
+  flex: 1;
+  display: grid;
+  background-color: white;
+  padding: 20px 25px;
+  background: #f4f4f4;
+  background: -webkit-linear-gradient(0deg, #f4f4f4 0%, #f7f7f7 100%);
+  background: linear-gradient(0deg, #f4f4f4 0%, #f7f7f7 100%);
+
+  -webkit-box-shadow: 1.5px 3.5px 6px -1.5px #dddddd;
+  -moz-box-shadow: 1.5px 3.5px 6px -1.5px #dddddd;
+  box-shadow: 1.5px 3.5px 6px -1.5px #dddddd;
+}
+
+.boxCard>:first-child{
+  margin-bottom: 10px;
+  color: var(--blue1-color);
+  font-size: calc(20px + .5vw);
+}
+
+.boxCard>:nth-child(2){
+  color: var(--blue1-color);
+  font-weight: 600;
+}
+
+.boxCard>:nth-child(3){
+  color: var(--blue1-color);
+  font-size: calc(8px + .3vw);
+}

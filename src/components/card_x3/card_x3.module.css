@@ -1,0 +1,66 @@
+@import url(../../variables.module.css);
+
+.container{
+  margin: auto;
+  width: 80%;
+  display: flex;
+  gap: 50px;
+}
+
+.boxCard{
+  flex: 1;
+  display: grid;
+  gap: 10px;
+  place-items: center;
+  padding: 30px 30px 50px 30px;
+  border-radius: 10px;
+  position: relative;
+}
+
+.container>:first-child{
+  background-color: var(--blue1-color);
+}
+
+.container>:nth-child(2){
+  background-color: var(--blue2-color);
+}
+
+.container>:nth-child(3){
+  background-color: var(--blue3-color);
+}
+
+.boxCard>:first-child{
+  width: 3vw;
+  height: 3vw;
+  background-color: white;
+  color: var(--blue1-color);
+  display: grid;
+  place-items: center;
+  font-size: calc(20px + 0.3vw);
+  border-radius: 50%;
+}
+
+.boxCard> h1{
+  font-size: calc(19px + 0.3vw);
+}
+
+.boxCard> p{
+  font-size: calc(9px + 0.3vw);
+  text-wrap: stable;
+}
+
+.botonIr{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 40px;
+  height: 40px;
+
+  display: grid;
+  place-items: center;
+  background-color: var(--orange1-color);
+  border-radius: 0% 100% 0% 10% / 0% 100% 0% 10%;
+  cursor: pointer;
+
+
+}

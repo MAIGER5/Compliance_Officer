@@ -1,0 +1,69 @@
+@import url('../../variables.module.css');
+
+.container{
+  background-color: var(--blue4-color);
+  display: grid;
+  gap: 90px;
+  border-radius: 10px 10px 0 0;
+  padding-bottom: 50px;
+
+}
+
+.bodyHome{
+  width: 80%;
+  margin: auto;
+  margin-top: 70px;
+}
+
+
+.screenBase{
+  width: 100%;
+  height: 600px;background-color: var(--blue1-color);
+  border-radius: 10px 10px 0 0;
+  position: relative;
+}
+
+.screenBase::before{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  clip-path: polygon(100% 0%, 100% 100%, 50% 100%, 100% 50%);  
+  background-color: var(--orange1-color);
+  opacity: 95%;
+  z-index: 1;
+}
+
+.screenBase> :first-child{
+  margin: 130px 20px 20px 90px;
+}
+
+.screenBase>:nth-child(2){
+  position: absolute;
+  width: 80%;
+  top: 100%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  gap: 40px;
+  z-index: 2;
+  border-radius: 8px;
+}
+
+.container>:nth-child(n+3){
+  display: grid;
+  gap: 30px;
+}
+
+.titles{
+  width: 80%;
+  margin: auto;
+  font-size: calc(25px + .5vw);
+  color: var(--blue1-color);
+}
+
+.titles> strong{
+  color: var(--orange1-color);
+}

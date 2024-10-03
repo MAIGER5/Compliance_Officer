@@ -1,0 +1,53 @@
+@import url('../../variables.module.css');
+
+.container{
+  width: 100%;
+  display: flex;
+  gap: 40px;
+}
+
+.container> div{
+  width: 50%;
+}
+
+.container> :first-child{
+  overflow: hidden;
+  border-radius: 15px;
+}
+
+.container> :first-child> img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.textContain> :first-child{
+  margin-bottom: 10px;
+}
+
+.textContain> :nth-child(2){
+  display: grid;
+  margin-bottom: auto;
+  gap: 40px;
+}
+
+.textContain> :nth-child(2)> h1{
+  color: var(--grey1-color);
+  text-wrap: balance;
+}
+
+.textContain> :nth-child(2)> h1> strong{
+  color: var(--orange1-color);
+}
+
+.textContain> :nth-child(2)> span{
+  color: var(--grey1-color);
+}
+
+
+
+.botons{
+  display: flex;
+  gap: 30px;
+}

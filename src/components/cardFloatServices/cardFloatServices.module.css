@@ -1,0 +1,46 @@
+@import url('../../variables.module.css');
+
+.container{
+  width: 100%;
+  display: flex;
+  background-color: white;
+  border-radius: 8px;
+}
+
+.boxCard{
+  flex: 1;
+  display: grid;
+  place-items: center;
+  color: var(--blue1-color);
+  padding: 10px 30px;
+  position: relative;
+}
+
+.boxCard:nth-child(-n + 3)::before{
+  position: absolute;
+  content: '';
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+  height: 50%;
+  border: 1px solid var(--blue4-color);
+  opacity: 50%;
+}
+
+.boxCard> :first-child{
+  color: var(--blue2-color);
+  font-size: calc(20px + 1vw);
+}
+
+.boxCard> :nth-child(2){
+  font-weight: 600;
+}
+
+.boxCard>:nth-child(3){
+  font-size: calc(10px + .1vw);
+  color: var(--grey1-color);
+}
+
+.boxCard> p{
+  text-align: center;
+}
