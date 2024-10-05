@@ -2,6 +2,7 @@ import React from 'react';
 import styles from './footer.module.css';
 import { dataFooter } from '../../data/dataFooter';
 import { Boton_Contain } from '../botons/botons';
+import { SocialMedia } from '../socialMedia/socialMedia';
 
 export const Footer = () => {
 
@@ -9,7 +10,10 @@ export const Footer = () => {
 
   return (
     <div className={styles.container}>
-      <div>TU OFICIAL DE CUMPLIMIENTO</div>
+      <div>
+        <span>TU OFICIAL DE CUMPLIMIENTO</span>
+        <SocialMedia/>
+      </div>
       <div>
         <span>Información de la Compañia</span>
         <span>Carrera 46 # 10 Sur - 56</span>

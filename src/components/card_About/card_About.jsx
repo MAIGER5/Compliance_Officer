@@ -1,11 +1,11 @@
 import React, { useContext } from 'react';
-import styles from './cardServices_Claves.module.css';
+import styles from './card_About.module.css';
 import DataContext from '../../context_Data/dataContext';
 import { useLocation } from 'react-router-dom';
 
 
 
-export const CardServices_Claves = () => {
+export const Card_About = () => {
 
   const location = useLocation()
 
@@ -22,7 +22,9 @@ export const CardServices_Claves = () => {
       {
         data.map((ele, index)=>(
           <div className={styles.boxCard} key={ele.id}>
-            {ele.iconName}
+            <div>
+              {ele.iconName} {ele.head}
+            </div>
             <span>{ele.title}</span>
             <p>{ele.text}</p>
           </div>

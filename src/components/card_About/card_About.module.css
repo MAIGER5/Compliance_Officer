@@ -5,26 +5,24 @@
   width: 80%;
   margin: auto;
   display: flex;
-  gap: 30px;
+  gap: 15px;
   padding: 20px;
 }
 
-.container>:nth-child(odd){
-  border-radius: 10% 0% 0% 10% / 10% 10% 10% 10%;
+.container>:nth-child(1){
   
 }
 
-.container>:nth-child(even){
-  border-radius: 0% 10% 10% 0% / 10% 10% 10% 10%;
+.container>:nth-child(2){
+  border-radius: 15px
 }
 
 .boxCard{
   flex: 1;
   display: grid;
-  padding: 20px 25px;
-  background: #f4f4f4;
-  background: -webkit-linear-gradient(0deg, #f4f4f4 0%, #f7f7f7 100%);
-  background: linear-gradient(0deg, #f4f4f4 0%, #f7f7f7 100%);
+  background: white;
+  border-radius: 15px;
+
 
   -webkit-box-shadow: 1.5px 3.5px 6px -1.5px #dddddd;
   -moz-box-shadow: 1.5px 3.5px 6px -1.5px #dddddd;
@@ -33,17 +31,25 @@
 
 .boxCard>:first-child{
   margin-bottom: 10px;
-  color: var(--blue1-color);
-  font-size: calc(20px + .5vw);
+  background-color: var(--blue1-color);
+  color: white;
+  font-size: calc(10px + .5vw);
+  padding: 10px 25px;
+  border-radius: 10px 10px 0 0;
+
 }
 
 .boxCard>:nth-child(2){
   color: var(--blue1-color);
   font-weight: 600;
+  padding: 20px 25px;
+
 }
 
 .boxCard>:nth-child(3){
   color: var(--blue1-color);
   font-size: calc(8px + .3vw);
+  padding: 0px 25px 10px 25px;
+
 }
 

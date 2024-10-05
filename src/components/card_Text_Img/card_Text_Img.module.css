@@ -1,0 +1,86 @@
+@import url('../../variables.module.css');
+
+.container{
+  width: 80%;
+  margin: auto;
+  background-color: var(--blue1-color);
+  display: flex;
+  gap: 50px;
+}
+
+.firstColumn, .secondColumn{
+  flex: 1;
+  display: grid;
+  place-items: center;
+}
+
+.firstColumn> :first-child{
+  height: 80%;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.firstColumn>div>span{
+  font-size: calc(9px + 0.3vw);
+}
+
+.firstColumn>div>h1{
+  font-size: calc(17px + 0.9vw);
+}
+
+.secondColumn> :first-child{
+  width: 60%;
+  height: 90%;
+  position: relative;
+  border-radius: 35px;
+}
+
+.secondColumn> :first-child> img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+  border-radius: 35px;
+
+}
+
+.miniCard{
+  position: absolute;
+  top: 45%;
+  left: -25%;
+  display: grid;
+  gap: 30px;
+}
+
+.miniCard>div{
+  width: fit-content;
+  height: fit-content;
+  padding: 7px 20px;
+  border-radius: 15px;
+  background-color: white;
+  color: var(--blue1-color);
+
+}
+
+.miniCard>span, .miniCard>p{
+  color: var(--blue1-color);
+}
+
+.miniCartInto{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.miniCartInto> :nth-child(2){
+  display: grid;
+}
+
+.minicardTitle, .minicardSubTitle{
+  font-size: calc(12px + 0.1vw);
+}
+
+.minicardTitle{
+  font-weight: 600;
+}

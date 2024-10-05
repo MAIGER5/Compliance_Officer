@@ -2,15 +2,15 @@
 
 .container{
   width: 88%;
-  height: fit-content;
-  top: 2%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  position: absolute;
   display: flex;
   justify-content: space-between;
   align-items: center;
   z-index: 999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  padding-top: 10px;
 
 }
 
@@ -39,6 +39,9 @@
 }
 
 .container>ul>li{
+  display: flex;
+  gap: 5px;
+  align-items: center;
   list-style: none;
   font-weight: 400;
   cursor: pointer;
