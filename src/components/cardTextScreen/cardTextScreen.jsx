@@ -1,9 +1,15 @@
 import React from 'react';
 import styles from './cardTextScreen.module.css';
 import { AdvancedImage } from '@cloudinary/react';
+import { Boton_Contain } from '../botons/botons';
+import { dataFooter } from '../../data/dataFooter';
 
 
 export const CardTextScreen = () => {
+
+  const data = dataFooter;
+  const dataBoton = data[0]
+
   return (
     <div className={styles.container}>
       <section>
@@ -15,11 +21,9 @@ export const CardTextScreen = () => {
           </div>
           <h1>GARANTIA DE CONFIANZA</h1>
         </div>
-        {/* <div className={styles.imagen}>
-          <AdvancedImage cldImg={image2}/>
-        </div> */}
+        <Boton_Contain {...dataBoton} />
       </section>
-      <section>
+      {/* <section>
         <span>Nos comprometemos a ser un socio estratégico que protege tu reputación y fomenta una cultura corporativa de transparencia y responsabilidad. </span>
         <div>
           <div className={styles.boxExpProyect}>
@@ -35,7 +39,7 @@ export const CardTextScreen = () => {
             <span>Compañias Consultadas</span>
           </div>
         </div>
-      </section>
+      </section> */}
     </div>
   )
 }

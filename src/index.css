@@ -5,7 +5,8 @@
 
   color-scheme: light dark;
   color: rgba(255, 255, 255, 0.87);
-  background-color: #49a0cc;
+  background-color: #949697;
+  /* background-color: #49a0cc; */
 
   font-synthesis: none;
   text-rendering: optimizeLegibility;
@@ -23,7 +24,7 @@ a:hover {
 }
 
 body {
-  margin: 50px 0 0 0 ;
+  margin: 0 0 0 0 ;
   display: grid;
   min-width: 320px;
   min-height: 100vh;

@@ -3,11 +3,12 @@
 .container{
   width: 100%;
   display: flex;
-  gap: 40px;
+  gap: 30px;
 }
 
 .container> div{
   width: 50%;
+  flex: 1;
 }
 
 .container> :first-child{
@@ -29,11 +30,12 @@
 .textContain> :nth-child(2){
   display: grid;
   margin-bottom: auto;
-  gap: 40px;
+  gap: calc(1rem + 2vw);
 }
 
 .textContain> :nth-child(2)> h1{
   color: var(--grey1-color);
+  font-size: clamp(1.5rem, 2.5vw, 2rem );
   text-wrap: balance;
 }
 
@@ -43,6 +45,8 @@
 
 .textContain> :nth-child(2)> span{
   color: var(--grey1-color);
+  font-size: clamp(.8rem, 1vw, 3rem );
+
 }
 
 
@@ -50,4 +54,14 @@
 .botons{
   display: flex;
   gap: 30px;
+}
+
+@media(720px > width){
+  .container{
+    flex-direction: column;
+  }
+
+  .container> div{
+    width: 100%;
+  }
 }

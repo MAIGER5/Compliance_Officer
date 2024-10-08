@@ -5,6 +5,7 @@
   width: 80%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   gap: 15px;
   padding: 20px;
 }
@@ -53,3 +54,10 @@
 
 }
 
+@media(500px> width){
+  .container{
+    flex-direction: column;
+    width: 95%;
+    padding: 0;
+  }
+}

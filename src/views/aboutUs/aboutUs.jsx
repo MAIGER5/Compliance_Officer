@@ -22,6 +22,7 @@ export const AboutUs = () => {
   const data = dataFooter;
   const data1= dataAboutCardX3;
   const data2= data_card_Text_Img;
+  const images = [  logoDHS, logoJURIDICA, logoKO, logoPSO, logoSEIN, logoSGI, logoTECNI, logosec]
 
   return (
     <div className={styles.container}>
@@ -31,21 +32,21 @@ export const AboutUs = () => {
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nulla velit dicta maxime perferendis eveniet ipsum, </span>
           <Boton_Contain {...data[0]}/>
         </div>
-        <div>
-        </div>
       </section>
 
       <section className={styles.body}>
 
         <div className={styles.logos}>
-          <img src={logoPSO} alt="" />
-          <img src={logoDHS} alt="" />
-          <img src={logoSEIN} alt="" />
-          <img src={logoSGI} alt="" />
-          <img src={logoJURIDICA} alt="" />
-          <img src={logoKO} alt="" />
-          <img src={logoTECNI} alt="" />
-          <img src={logosec} alt="" />
+          {
+            images?
+            images.map((el, index)=>(
+              <img 
+                key={index}
+                src={el} 
+                alt=""
+              />
+            )): ''
+          }
         </div>
 
         <div>

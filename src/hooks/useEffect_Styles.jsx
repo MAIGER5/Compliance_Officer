@@ -44,27 +44,6 @@ export const useEffect_Styles = (butRef, color, background, border, borderHover,
 
 }
 
-
-export const useEffect_Styles_Path = (liRef, pathLocation) =>{
-
-  useEffect(()=>{
-    if (pathLocation === '/') {
-      liRef.current[0].style.color = '#f95959';
-    } else if(pathLocation === '/aboutUs'){
-      liRef.current[1].style.color = '#f95959';
-    } else{
-      liRef.current[0].style.color = '';
-      liRef.current[1].style.color = '';
-    }
-
-    return()=>{
-      liRef.current[0].style.color = '';
-      liRef.current[1].style.color = ''
-    }
-  },[pathLocation])
-
-}
-
 export const useEffect_Style_Border = (liRef) =>{
 
   useEffect(()=>{
@@ -74,7 +53,7 @@ export const useEffect_Style_Border = (liRef) =>{
       const handleMouseOver = ()=>{
         if (li) {
           li.style.borderStyle = 'solid';
-          li.style.borderColor = '#f95959';
+          li.style.borderColor = '#ff5722';
           li.style.borderWidth = '0 0 2px 0';
         }
       }
@@ -101,4 +80,24 @@ export const useEffect_Style_Border = (liRef) =>{
 
 
   },[])
+}
+
+export const useEffect_Styles_Path = (liRef, pathLocation) =>{
+
+  useEffect(()=>{
+    if (pathLocation === '/') {
+      liRef.current[0].style.color = '#ff5722';
+    } else if(pathLocation === '/aboutUs'){
+      liRef.current[1].style.color = '#ff5722';
+    } else{
+      liRef.current[0].style.color = '';
+      liRef.current[1].style.color = '';
+    }
+
+    return()=>{
+      liRef.current[0].style.color = '';
+      liRef.current[1].style.color = ''
+    }
+  },[pathLocation])
+
 }

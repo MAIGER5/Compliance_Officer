@@ -29,7 +29,7 @@ export const data_card_Text_Img = [
         subtitle2:'20 - 80 personas'
       },
       {
-        idMiniCard:2,
+        idMiniCard:3,
         icon:<ImMakeGroup />,
         title2:'Grupo Usuarios',
         subtitle2:'20 - 80 personas'

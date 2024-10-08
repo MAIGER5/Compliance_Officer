@@ -6,13 +6,14 @@ export const dataBotons = [
     name:'containBoton',
     text:'Cotiza con Nosotros',
     color:'rgb(255, 255, 255, 255)',
-    background:'#f95959',
+    background:'#ff5722',
     border:'',
     borderHover:'',
     backgroundHover:'#49a0cc',
     colorHover:'',
     padding:'',
     fontweight:'700',
+    link:'/contact'
   },
   {
     id:2,

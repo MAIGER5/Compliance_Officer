@@ -1,10 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './navBar.module.css';
 import {useLocation, useNavigate} from 'react-router-dom'
-import { Boton_Contain } from '../botons/botons';
 import logo from '../../media/logopng1.png';
-import { dataNavbar, dataNavbarMenu } from '../../data/data_navBar';
-import { useEffect_Styles_Path, useEffect_Style_Border } from '../../hooks/useEffect_Styles';
+import { dataNavbarMenu } from '../../data/data_navBar';
+import { useEffect_Style_Border, useEffect_Styles_Path } from '../../hooks/useEffect_Styles';
+import { WhatsApp } from '../whatsApp/whatsApp';
 
 export const NavBar = () => {
 
@@ -14,8 +14,6 @@ export const NavBar = () => {
 
   const navigate = useNavigate();
 
-  const data = dataNavbar;
-  const dataBoton = data[0]
   const dataNavMenu = dataNavbarMenu;
 
   const handleNavigate = (path)=>{
@@ -45,7 +43,7 @@ export const NavBar = () => {
           )):''
         }
       </ul>
-      <Boton_Contain {...dataBoton} />
+      <WhatsApp/>
     </div>
   )
 }

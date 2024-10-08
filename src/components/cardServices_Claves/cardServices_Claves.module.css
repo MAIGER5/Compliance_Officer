@@ -5,6 +5,7 @@
   width: 80%;
   margin: auto;
   display: flex;
+  flex-wrap: wrap;
   gap: 30px;
   padding: 20px;
 }
@@ -19,7 +20,7 @@
 }
 
 .boxCard{
-  flex: 1;
+  flex:1;
   display: grid;
   padding: 20px 25px;
   background: #f4f4f4;
@@ -47,3 +48,12 @@
   font-size: calc(8px + .3vw);
 }
 
+
+@media(720px > width){
+
+  .container{
+    width: 95%;
+    padding: 0;
+  }
+  
+}

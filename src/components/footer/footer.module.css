@@ -7,7 +7,6 @@
   background-color: var(--grey1-color);
   padding: 90px;
   position: relative;
-  border-radius: 0 0 10px 10px;
 }
 
 .container::before{
@@ -43,4 +42,10 @@
 
 .container>:nth-child(3)>:last-child{
   margin-top: 5px;
+}
+
+@media(720px > width){
+  .container{
+    padding: 80px 40px;
+  }
 }

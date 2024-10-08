@@ -1,0 +1,171 @@
+@import url('../../variables.module.css');
+
+.contenedor{
+  background-color: var(--blue1-color);
+  display: grid;
+  gap: 40px;
+  padding-block: 150px;
+}
+
+.contenedor > p{
+  width: 70%;
+  margin: auto;
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.contSection{
+  width: 70%;
+  margin: auto;
+  display: flex;
+  border-radius: 20px;
+  overflow: hidden;
+  border: 3px solid white;
+
+}
+
+.screenForm{
+  width: 40%;
+  overflow: hidden;
+}
+
+
+.textForm{
+  width: 60%;
+  background-color: white;
+  padding: 70px;
+  display: grid;
+  gap: 20px;
+}
+
+.screenForm> img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+
+.textForm> :first-child> img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center;
+}
+
+.textForm> :first-child> h1{
+  color: var(--blue2-color);
+  font-size: 30px;
+}
+
+.textForm> input{
+  width: 70%;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: transparent;
+  border: 1px solid var(--blue4-color);
+}
+
+input[type="number"] {
+  -webkit-appearance: none;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+
+.textForm> button{
+  width: 70%;
+  height: 60px;
+  border-radius: 5px;
+  border: none;
+  background-color: var(--orange1-color);
+  font-size: 20px;
+  transition: background-color .5s;
+
+}
+
+.textForm> button:hover{
+  background-color: var(--blue2-color);
+
+}
+
+.textForm> p{
+  color: black;
+  font-size: 16px;
+}
+
+.textForm span{
+  color: var(--grey3-color);
+  font-size: 15px;
+  cursor: pointer;
+  text-decoration: none;
+  transition: text-decoratio .5s;
+}
+
+.textForm span:hover{
+  text-decoration: underline;
+
+}
+
+@media only screen and (max-width: 720px){
+
+  .contenedor{
+    padding-block: 70px;
+  }
+
+  .contSection{
+    width: 90%;
+    margin-top: 50px;
+  }
+
+  .contenedor > p{
+    width: 90%;
+  }
+  
+  .screenForm{
+    display: none;
+  }
+
+  .textForm{
+    width: 100%;
+    padding: 25px;
+
+  }
+
+  .textForm> input,
+  .textForm> button
+  {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width:721px) and (max-width: 992px){
+
+  .contenedor{
+    padding-block: 70px;
+  }
+
+  .contSection{
+    width: 50%;
+    margin-top: 50px;
+
+  }
+  
+  .screenForm{
+    display: none;
+  }
+
+  .textForm{
+    width: 100%;
+  }
+
+  .textForm> input,
+  .textForm> button
+  {
+    width: 100%;
+  }
+
+}
+

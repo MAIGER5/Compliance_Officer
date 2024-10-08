@@ -22,7 +22,7 @@ export const Cards_x2_Image_Text = () => {
       </div>
       <div className={styles.textContain}>
         <Boton_Contain {...dataBotonText}/>
-      <div>
+        <div>
           <h1>{data[0].title}<strong>{data[0].title2}</strong></h1>
           <span>{data[0].description}</span>
           <div className={styles.botons}>

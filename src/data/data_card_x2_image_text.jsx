@@ -23,13 +23,14 @@ export const data_card_x2_image_text = [
       background:'#233142',
       border:'',
       borderHover:'',
-      backgroundHover:'#f95959',
+      backgroundHover:'#ff5722',
       colorHover:'',
       padding:'',
       fontweight:'700',
+      link:'/aboutUs'
     },
     botonOutlined:{
-      text:'Nuestros Servicios',
+      text:'Contáctanos',
       color:'#233142',
       background:'transparent',
       border:'1px solid #233142',
@@ -38,6 +39,7 @@ export const data_card_x2_image_text = [
       colorHover:'rgb(255, 255, 255, 255)',
       padding:'',
       fontweight:'700',
+      link:'/contact'
     },
   }
 ]

@@ -3,12 +3,14 @@
 .container{
   width: 100%;
   display: flex;
+  flex-wrap: wrap;
   background-color: white;
   border-radius: 8px;
 }
 
 .boxCard{
   flex: 1;
+  /* flex-basis: 170px; */
   display: grid;
   place-items: center;
   color: var(--blue1-color);

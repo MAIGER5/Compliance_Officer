@@ -3,11 +3,17 @@
 
 .container{
   display: flex;
-  gap: 30px;
+
 }
 
 .container> :first-child{
-  width: 70%;
+  width: 80%;
+  margin: auto;
+}
+
+.container>:first-child> :nth-child(2){
+  margin-bottom: 80px;
+
 }
 
 .container> :nth-child(2){
@@ -17,11 +23,11 @@
 }
 
 .firstLine, .secondLine> h1{
-  font-size: calc(30px + 1vw);
+  font-size: clamp(1.5rem, 2.5vw, 4rem);
 }
 
 .firstLine> strong{
-  color: var(--blue3-color);
+  /* color: var(--orange1-color); */
 }
 
 .secondLine{
@@ -35,11 +41,17 @@
 }
 
 .year>:first-child{
-  font-weight: 500;
+  font-weight: 700;
+  color: var(--orange1-color);
+
 }
 
 .year> :nth-child(2){
   font-size: 2em;
+  color: var(--orange1-color);
+  font-weight: 700;
+
+
 }
 
 .container> :nth-child(2)> :nth-child(2){

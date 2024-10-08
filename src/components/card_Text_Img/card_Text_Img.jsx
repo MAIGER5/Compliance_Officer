@@ -28,7 +28,7 @@ export const Card_Text_Img = () => {
             {
               miniCard?
               miniCard.map((el)=>(
-                <div>
+                <div key={el.idMiniCard}>
                     <div className={styles.miniCartInto}>
                       {el.icon}
                       <div>

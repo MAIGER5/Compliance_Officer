@@ -8,7 +8,7 @@
 }
 
 .boxCard{
-  flex: 1;
+  flex:1;
   display: grid;
   gap: 10px;
   place-items: center;
@@ -63,4 +63,13 @@
   cursor: pointer;
 
 
+}
+
+
+@media(720px > width){
+  .container{
+    width: 95%;
+    flex-direction: column;
+    gap: 30px;
+  }
 }
