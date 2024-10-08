@@ -13,7 +13,7 @@ import {
   logosec,
   dataAboutCardX3,
   data_card_Text_Img
-} from '../../importations/importations';
+} from '../../importations/importations'; // este es el import centralizado
 
 
 
