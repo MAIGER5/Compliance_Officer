@@ -26,6 +26,7 @@ import { Boton_Contain} from '../components/botons/botons';
 import { dataBotons } from '../data/dataBotons';
 import { Contact } from '../views/contact/contact';
 import { WhatsApp } from '../components/whatsApp/whatsApp';
+import ScrollToTop from '../hooks/ScrollToTop';
 import logoPSO from '../media/GrupoPSO.png'
 import logoDHS from '../media/DHS.png'
 import logoSEIN from '../media/SEIN.png'
@@ -60,6 +61,7 @@ export{
   Card_Text_Img,
   Contact,
   WhatsApp,
+  ScrollToTop,
   image1,
   data_cardFloatServices,
   data_cardX3,
