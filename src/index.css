@@ -49,19 +49,20 @@ button {
   width: fit-content;
   border-radius: 9px;
   padding: 0.8em 1.2em;
-  font-size: 0.em;
   font-weight: 500;
   font-family: inherit;
   cursor: pointer;
   border: none;
 }
+
 button:hover {
   border-color: #646cff;
 }
-button:focus,
+
+/* button:focus,
 button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
-}
+} */
 
 @media (prefers-color-scheme: light) {
   :root {
