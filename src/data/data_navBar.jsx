@@ -34,7 +34,7 @@ export const dataNavbarMenu = [
   // },
   {
     id:3,
-    tilte:'Acerca de Nosotros',
+    tilte:'Nosotros',
     icon:<FaUserGroup/>,
     link:'/aboutUs'
   },
