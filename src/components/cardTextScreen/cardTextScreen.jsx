@@ -19,7 +19,7 @@ export const CardTextScreen = () => {
             <span>Efectividad</span>
             <span>2024</span>
           </div>
-          <h1>GARANTIA DE CONFIANZA</h1>
+          <h1 className={styles.firstLine}>GARANTIA DE CONFIANZA</h1>
         </div>
         <Boton_Contain {...dataBoton} />
       </section>

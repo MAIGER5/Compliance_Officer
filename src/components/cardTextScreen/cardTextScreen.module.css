@@ -22,9 +22,9 @@
   padding: 0px 60px;
 }
 
-.firstLine,  .secondLine{
+.firstLine{
   font-size: clamp(1.5rem, 2.5vw, 4rem);
-  color: white;
+  color: var(--blue4-color);
 }
 
 .firstLine> strong{
