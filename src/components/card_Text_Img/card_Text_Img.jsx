@@ -24,22 +24,22 @@ export const Card_Text_Img = () => {
       <div className={styles.secondColumn}>
         <div>
           <img src={imgLink} alt="" />
-          <div className={styles.miniCard}>
-            {
-              miniCard?
-              miniCard.map((el)=>(
-                <div key={el.idMiniCard}>
-                    <div className={styles.miniCartInto}>
-                      {el.icon}
-                      <div>
-                        <span className={styles.minicardTitle}>{el.title2}</span>
-                        <span className={styles.minicardSubTitle}>{el.subtitle2}</span>
-                      </div>
+        </div>
+        <div className={styles.miniCard}>
+          {
+            miniCard?
+            miniCard.map((el)=>(
+              <div key={el.idMiniCard}>
+                  <div className={styles.miniCartInto}>
+                    {el.icon}
+                    <div>
+                      <span className={styles.minicardTitle}>{el.title2}</span>
+                      <span className={styles.minicardSubTitle}>{el.subtitle2}</span>
                     </div>
-                </div>
-              )):''
-            }
-          </div>
+                  </div>
+              </div>
+            )):''
+          }
         </div>
       </div>
 
