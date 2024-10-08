@@ -44,9 +44,10 @@
 
 .secondColumn> :first-child{
   width: 60%;
-  height: 90%;
+  /* height: 90%; */
   position: relative;
   border-radius: 35px;
+  padding-block: 30px;
 }
 
 .secondColumn> :first-child> img{
