@@ -14,7 +14,7 @@ export const data_card_Text_Img = [
     title:'Nuestro Equipo de Trabajo esta Preparado para Ofrecerte Soporte Profesional',
     description:'Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta optio, totam esse, placeat a commodi dicta quo doloremque omnis aliquid perferendis quaerat tempora atque aspernatur vero? Voluptate velit eos amet.',
     name2:'secondColum',
-    imgLink:'https://cryptosec.com/wp-content/uploads/2023/07/Interim-Crypto-Compliance-Officer.jpg',
+    imgLink:'https://cdn.masmovil.es/embed/c517aab431222f365fa1268efb1600708413/diferencias_imagen_identidad_destacada.jpg?imagick=1&size=1000',
     miniCard:[
       {
         idMiniCard:1,
