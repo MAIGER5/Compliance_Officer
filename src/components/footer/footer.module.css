@@ -38,6 +38,8 @@
 .container>:nth-child(4)>span{
   font-weight: 400;
   text-wrap: stable;
+  color: var(--blue4-color);
+  margin-bottom: 40px;
 }
 
 .container>:nth-child(3)>:last-child{

@@ -27,7 +27,7 @@ export const AboutUs = () => {
   return (
     <div className={styles.container}>
       <section className={styles.screenBase}>
-        <div>
+        <div className={styles.textScreen}>
           <h1>PROTEGIENDO TU EMPRESA, ASEGURANDO EL FUTURO</h1>
           <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nulla velit dicta maxime perferendis eveniet ipsum, </span>
           <Boton_Contain {...data[0]}/>

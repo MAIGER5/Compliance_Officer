@@ -33,15 +33,16 @@
 .boxCard>:first-child{
   margin-bottom: 10px;
   background-color: var(--blue1-color);
-  color: white;
-  font-size: calc(10px + .5vw);
+  color: var(--blue4-color);
+  font-size: clamp(1.3rem, 1vw, 3rem);
   padding: 10px 25px;
   border-radius: 10px 10px 0 0;
 
 }
 
-.boxCard>:nth-child(2){
+.boxCard>span{
   color: var(--blue1-color);
+  font-size: clamp(1.1rem, 1vw, 3rem);
   font-weight: 600;
   padding: 20px 25px;
 
@@ -49,7 +50,7 @@
 
 .boxCard>:nth-child(3){
   color: var(--blue1-color);
-  font-size: calc(8px + .3vw);
+  font-size: clamp(.9rem, 1vw, 3rem);
   padding: 0px 25px 10px 25px;
 
 }

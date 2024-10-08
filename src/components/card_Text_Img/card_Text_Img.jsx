@@ -15,9 +15,9 @@ export const Card_Text_Img = () => {
     <div className={styles.container}>
       <div className={styles.firstColumn}>
         <div>
-          <span>{subtitle}</span>
-          <h1>{title}</h1>
-          <span>{description}</span>
+          <span className={styles.subtitle}>{subtitle}</span>
+          <h1 className={styles.title}>{title}</h1>
+          <span className={styles.description}>{description}</span>
           <Boton_Contain {...data[0]} />
         </div>
       </div>
