@@ -42,11 +42,13 @@
 
 .boxCard> h1{
   font-size: calc(19px + 0.3vw);
+  color: white;
 }
 
 .boxCard> p{
   font-size: calc(9px + 0.3vw);
   text-wrap: stable;
+  color: white;
 }
 
 .botonIr{
