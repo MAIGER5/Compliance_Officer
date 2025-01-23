@@ -8,7 +8,7 @@ export const dataAboutCardX3 = [
   {
     id: 1,
     iconName: <MdHistoryEdu/>,
-    head:'Hitoria',
+    head:'Historia',
     title: 'Implementación de Programas',
     text: 'Diseño de políticas y procedimientos para asegurar el cumplimiento normativo en la organización.'
   },

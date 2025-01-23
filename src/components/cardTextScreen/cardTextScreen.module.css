@@ -4,27 +4,32 @@
 .container{
   display: flex;
 
+
 }
 
-.container> :first-child{
+
+
+.container > section{
   width: 80%;
   margin: auto;
 }
 
-.container>:first-child> :nth-child(2){
+.container >section > :nth-child(2){
   margin-bottom: 80px;
 
 }
 
-.container> :nth-child(2){
+.container > :nth-child(2){
   width: 30%;
   display: grid;
   padding: 0px 60px;
 }
 
 .firstLine{
-  font-size: clamp(1.5rem, 2.5vw, 4rem);
+  font-size: clamp(1.5rem, 2vw, 4rem);
   color: var(--blue4-color);
+  line-height: 50px;
+
 }
 
 .firstLine> strong{
@@ -48,7 +53,7 @@
 }
 
 .year> :nth-child(2){
-  font-size: 2em;
+  font-size: 2.3em;
   color: var(--orange1-color);
   font-weight: 700;
 

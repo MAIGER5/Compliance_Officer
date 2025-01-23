@@ -1,5 +1,8 @@
 import React from "react";
-import { GiInjustice } from "react-icons/gi";
+import { LiaTripadvisor } from "react-icons/lia";
+import { AiOutlineFileProtect } from "react-icons/ai";
+import { SiTrueup } from "react-icons/si";
+
 
 
 
@@ -8,21 +11,21 @@ export const data_cardX3 = [
   
   {
     id: 1,
-    icon: <GiInjustice/>,
-    title: 'Servicio 1',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, aliquam accusamus sunt praesentium consequatur odio ex repellat hic eos architecto libero tempora exercitationem temporibus inventore, id quasi eaque! Quidem, ad!'
+    icon: <AiOutlineFileProtect />,
+    title: 'CONSULTORÍA',
+    text: 'Consultoría para la Implementación y Gestión de Riesgos de: Lavado de Activos, Financiación del Terrorismo y Financiación de Proliferación de Armas de Destrucción Masiva (LA/FT/FPADM) '
   },
   {
     id: 2,
-    icon: <GiInjustice/>,
-    title: 'Servicio 2',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, aliquam accusamus sunt praesentium consequatur odio ex repellat hic eos architecto libero tempora exercitationem temporibus inventore, id quasi eaque! Quidem, ad!'
+    icon: <LiaTripadvisor />,
+    title: 'SAGRILAFT',
+    text: 'Identificación, evaluación y controles de mitigación de riesgos de lavado de activos, financiación del terrorismo y financiamiento de proliferación de armas de destrucción masiva (LA/FT/FPADM. Monitoreo al SAGRILAFT.'
   },
   {
     id: 3,
-    icon: <GiInjustice/>,
-    title: 'Servicio 3',
-    text: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, aliquam accusamus sunt praesentium consequatur odio ex repellat hic eos architecto libero tempora exercitationem temporibus inventore, id quasi eaque! Quidem, ad!'
+    icon: <SiTrueup />,
+    title: 'PTEE',
+    text: 'Implementación del programa de transparencia y ética empresarial - PTEE, Creación y socialización del manual que contemplará las políticas, compromisos, metodologías, regulaciones y protocolos del programa '
   },
 ]
 

@@ -5,7 +5,7 @@ export const data_card_x2_image_text = [
   {
     title:'Porque Escogernos como',
     title2:'Tu Oficial de Cumplimiento',
-    description:'porque ofrecemos un enfoque integral y personalizado para proteger tu organización frente a riesgos regulatorios. Con nuestra experiencia en normativas locales e internacionales, te ayudamos a implementar programas efectivos de cumplimiento, gestionar riesgos, y garantizar que tu empresa opere de manera ética y eficiente.',
+    description:'Porque somos una firma de consultoría con abogados Especialistas y Magísteres con más de 15 años de experiencia en el sector  público y privado, certificados como Oficiales de Cumplimiento para Sistemas de Gestión bajo Norma ISO 37301, Sistemas de Gestión Anti-Soborno y Corrupción bajo Norma ISO 37301 y  Gestión Profesional de Riesgos bajo Norma ISO 31000:2018.',
     botonText:{
       text:'Acerca de Nosotros',
       color:'#233142',

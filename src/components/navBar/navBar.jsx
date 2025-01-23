@@ -1,7 +1,7 @@
 import React, { useEffect, useRef, useState } from 'react';
 import styles from './navBar.module.css';
-import {useLocation, useNavigate} from 'react-router-dom'
-import logo from '../../media/logopng1.png';
+import {Link, useLocation} from 'react-router-dom'
+import logo from '../../media/LogoFondo.png';
 import { dataNavbarMenu } from '../../data/data_navBar';
 import { useEffect_Style_Border, useEffect_Styles_Path } from '../../hooks/useEffect_Styles';
 import { WhatsApp } from '../whatsApp/whatsApp';
@@ -12,13 +12,7 @@ export const NavBar = () => {
 
   const liRef = useRef([])
 
-  const navigate = useNavigate();
-
   const dataNavMenu = dataNavbarMenu;
-
-  const handleNavigate = (path)=>{
-    navigate(path)
-  }
 
   useEffect_Styles_Path(liRef, location.pathname)
 
@@ -26,19 +20,21 @@ export const NavBar = () => {
   
   return (
     <div className={styles.container}>
-      <div>
-      < img src={logo} alt="" />
-      </div>
+      <Link to={'/'}>
+        < img src={logo} alt="" />
+      </Link>
       <ul>
         {
           dataNavMenu?
           dataNavMenu.map((li, index)=>(
             <li 
               key={li.id}
-              ref={el => liRef.current[index] = el}
-              onClick={()=>handleNavigate(li.link)}
             >
-              {li.icon}{li.tilte}
+              <Link to={li.link}
+                ref={el => liRef.current[index] = el}
+              >
+                {li.icon}{li.tilte}
+              </Link>              
             </li>
           )):''
         }

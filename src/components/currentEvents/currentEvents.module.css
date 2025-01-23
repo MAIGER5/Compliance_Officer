@@ -1,0 +1,8 @@
+@import url('../../variables.module.css');
+
+.container{
+  width: 80%;
+  margin: auto;
+  display: flex;
+  gap: 60px;
+}

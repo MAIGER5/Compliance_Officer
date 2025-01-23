@@ -1,7 +1,8 @@
 import React from 'react';
 import styles from './cardTextScreen.module.css';
+import imgScreen from '../../media/screen.webp'
 import { AdvancedImage } from '@cloudinary/react';
-import { Boton_Contain } from '../botons/botons';
+import { BotonContain } from '../botons/botons';
 import { dataFooter } from '../../data/dataFooter';
 
 
@@ -17,11 +18,11 @@ export const CardTextScreen = () => {
         <div className={styles.secondLine}>
           <div className={styles.year}>
             <span>Efectividad</span>
-            <span>2024</span>
+            <span>2025</span>
           </div>
           <h1 className={styles.firstLine}>GARANTIA DE CONFIANZA</h1>
         </div>
-        <Boton_Contain {...dataBoton} />
+        <BotonContain {...dataBoton} />
       </section>
       {/* <section>
         <span>Nos comprometemos a ser un socio estratégico que protege tu reputación y fomenta una cultura corporativa de transparencia y responsabilidad. </span>

@@ -22,11 +22,11 @@ import { SocialMedia } from '../components/socialMedia/socialMedia';
 import { AboutUs } from '../views/aboutUs/aboutUs';
 import { dataFooter } from '../data/dataFooter';
 import { Card_Text_Img } from '../components/card_Text_Img/card_Text_Img';
-import { Boton_Contain} from '../components/botons/botons';
+import { BotonContain} from '../components/botons/botons';
 import { dataBotons } from '../data/dataBotons';
 import { Contact } from '../views/contact/contact';
 import { WhatsApp } from '../components/whatsApp/whatsApp';
-import ScrollToTop from '../hooks/ScrollToTop';
+// import ScrollToTop from '../hooks/ScrollToTop';
 import logoPSO from '../media/GrupoPSO.png'
 import logoDHS from '../media/DHS.png'
 import logoSEIN from '../media/SEIN.png'
@@ -35,6 +35,8 @@ import logoTECNI from '../media/tecnidomicilios.png'
 import logosec from '../media/SEC.png'
 import logoKO from '../media/KO.png'
 import logoSGI from '../media/PSOSGI.png'
+import { CurrentEvents } from '../components/currentEvents/currentEvents';
+import { dataCurrentEvents } from '../data/dataCurrenteEvents';
 
 const cld = new Cloudinary({ 
   cloud: { 
@@ -47,7 +49,7 @@ const image1 = cld.image('firstCard')
 export{
   Home,
   Cards_x2_Image_Text,
-  Boton_Contain,
+  BotonContain,
   CardTextScreen,
   CardFloatServices,
   Card_x3,
@@ -61,8 +63,10 @@ export{
   Card_Text_Img,
   Contact,
   WhatsApp,
-  ScrollToTop,
+  CurrentEvents,
+  // ScrollToTop,
   image1,
+  dataCurrentEvents,
   data_cardFloatServices,
   data_cardX3,
   data_card_x2_image_text,

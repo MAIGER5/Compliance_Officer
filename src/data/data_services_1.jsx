@@ -1,14 +1,15 @@
 import React from 'react';
-import { MdDangerous } from "react-icons/md";
+import { MdInstallDesktop } from "react-icons/md";
 import { VscGitPullRequestGoToChanges } from "react-icons/vsc";
-import { GiInjustice } from "react-icons/gi";
+import { TbHeartRateMonitor } from "react-icons/tb";
+
 import { GrValidate } from "react-icons/gr";
 
 export const data_services_1 = [
 
   {
     id: 1,
-    iconName: <MdDangerous/>,
+    iconName: <MdInstallDesktop/>,
     title: 'Implementación de Programas',
     text: 'Diseño de políticas y procedimientos para asegurar el cumplimiento normativo en la organización.'
   },
@@ -20,7 +21,7 @@ export const data_services_1 = [
   },
   {
     id: 3,
-    iconName: <GiInjustice/>,
+    iconName: <TbHeartRateMonitor/>,
     title: 'Monitoreo y Auditorías Internas',
     text: 'Verificación continua de que la empresa cumple con las normativas y auditorías internas para detectar posibles incumplimientos.'
   },

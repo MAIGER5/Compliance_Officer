@@ -10,15 +10,30 @@
 
 .boxCard{
   flex: 1;
-  /* flex-basis: 170px; */
+  background-color: white;
+  border-radius: 8px;
   display: grid;
   place-items: center;
   color: var(--blue1-color);
-  padding: 10px 30px;
+  padding: 10px;
   position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease;
 }
 
-.boxCard:nth-child(-n + 3)::before{
+.boxCard:hover{
+  flex: 2;
+  background-color: var(--blue1-color);
+  color: white;
+  &.boxCard > :first-child{
+    color: white;
+  }
+  &.boxCard > :nth-child(3){
+    color: white;
+  }
+}
+
+/* .boxCard:nth-child(-n + 3)::before{
   position: absolute;
   content: '';
   top: 50%;
@@ -27,7 +42,7 @@
   height: 50%;
   border: 1px solid var(--blue4-color);
   opacity: 50%;
-}
+} */
 
 .boxCard> :first-child{
   color: var(--blue2-color);

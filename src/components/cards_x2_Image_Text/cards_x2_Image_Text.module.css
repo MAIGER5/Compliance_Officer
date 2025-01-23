@@ -6,15 +6,21 @@
   gap: 30px;
 }
 
-.container> div{
+.container > div{
   width: 50%;
   flex: 1;
+  position: relative;
 }
 
-.container> :first-child{
+.container > .imgContain{
   overflow: hidden;
   border-radius: 15px;
+  position: relative;
+  box-shadow: 6px 6px 5px 0px rgba(75,107,122,1);
+-webkit-box-shadow: 6px 6px 5px 0px rgba(75,107,122,1);
+-moz-box-shadow: 6px 6px 5px 0px rgba(75,107,122,1);
 }
+
 
 .container> :first-child> img{
   width: 100%;
@@ -23,14 +29,21 @@
   object-position: center;
 }
 
+.textContain{
+}
+
 .textContain> :first-child{
   margin-bottom: 10px;
+  /* padding: 10px 20px 30px 40px; */
+
 }
 
 .textContain> :nth-child(2){
   display: grid;
   margin-bottom: auto;
   gap: calc(1rem + 2vw);
+  padding: 10px;
+
 }
 
 .textContain> :nth-child(2)> h1{
@@ -46,6 +59,7 @@
 .textContain> :nth-child(2)> span{
   color: var(--grey1-color);
   font-size: clamp(.8rem, 1vw, 3rem );
+  
 
 }
 
@@ -56,7 +70,7 @@
   gap: 30px;
 }
 
-@media(720px > width){
+@media(995px > width){
   .container{
     flex-direction: column;
   }

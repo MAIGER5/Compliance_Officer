@@ -1,7 +1,7 @@
 import React, { useContext } from 'react';
 import styles from './card_Text_Img.module.css';
 import DataContext from '../../context_Data/dataContext';
-import { Boton_Contain } from '../botons/botons';
+import { BotonContain } from '../botons/botons';
 import { dataBotons } from '../../data/dataBotons';
 
 export const Card_Text_Img = () => {
@@ -18,7 +18,7 @@ export const Card_Text_Img = () => {
           <span className={styles.subtitle}>{subtitle}</span>
           <h1 className={styles.title}>{title}</h1>
           <span className={styles.description}>{description}</span>
-          <Boton_Contain {...data[0]} />
+          <BotonContain {...data[0]} />
         </div>
       </div>
       <div className={styles.secondColumn}>

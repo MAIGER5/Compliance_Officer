@@ -34,13 +34,13 @@
 
 .boxCard>:first-child{
   margin-bottom: 10px;
-  color: var(--blue1-color);
+  color: var(--orange1-color);
   font-size: calc(20px + .5vw);
 }
 
 .boxCard>:nth-child(2){
   color: var(--blue1-color);
-  font-weight: 600;
+  font-weight: 700;
 }
 
 .boxCard>:nth-child(3){

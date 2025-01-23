@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './aboutUs.module.css';
 import DataContext from '../../context_Data/dataContext';
-import { Boton_Contain, Card_About, Card_Text_Img, dataFooter } from '../../importations/importations';
+import { BotonContain, Card_About, Card_Text_Img, dataFooter } from '../../importations/importations';
 import { 
   logoDHS, 
   logoJURIDICA, 
@@ -28,15 +28,17 @@ export const AboutUs = () => {
     <div className={styles.container}>
       <section className={styles.screenBase}>
         <div className={styles.textScreen}>
-          <h1>PROTEGIENDO TU EMPRESA, ASEGURANDO EL FUTURO</h1>
-          <span>Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nulla velit dicta maxime perferendis eveniet ipsum, </span>
-          <Boton_Contain {...data[0]}/>
+          <h1>PROTEGIENDO TU EMPRESA,</h1>
+          <h1>TU PATRIMONIO Y TU LIBERTAD</h1>
+          <h1>ASEGURANDO TU FUTURO</h1>
+          <span> </span>
+          <BotonContain {...data[0]}/>
         </div>
       </section>
 
       <section className={styles.body}>
 
-        <div className={styles.logos}>
+        {/* <div className={styles.logos}>
           {
             images?
             images.map((el, index)=>(
@@ -47,7 +49,7 @@ export const AboutUs = () => {
               />
             )): ''
           }
-        </div>
+        </div> */}
 
         <div>
           <DataContext.Provider value={data1}>

@@ -14,9 +14,10 @@
 }
 
 .container>:first-child{
-  width: calc(2.5rem + 1.3vw);
-  height: calc(2.5rem + 1.3vw);
+  width: calc(9rem + 1.3vw);
   overflow: hidden;
+  margin-top: 7px;
+  cursor: pointer;
   z-index: 1000;
 
 }
@@ -26,9 +27,6 @@
   height: 100%;
 }
 
-.container>:nth-child(-n+3){
-
-}
 
 .container>ul{
   display: flex;
@@ -37,13 +35,16 @@
 
 }
 
-.container>ul>li{
+.container > ul > li {
   display: flex;
   gap: 5px;
   align-items: center;
   list-style: none;
+}
+
+.container >ul > li > :first-child{
   font-weight: 400;
   cursor: pointer;
-  font-size:  clamp(0.8rem, 0.8vw, 3rem);
+  font-size:  clamp(1rem, 0.8vw, 3rem);
   color: var(--blue4-color);
 }

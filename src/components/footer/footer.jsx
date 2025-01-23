@@ -1,7 +1,7 @@
 import React from 'react';
 import styles from './footer.module.css';
 import { dataFooter } from '../../data/dataFooter';
-import { Boton_Contain } from '../botons/botons';
+import { BotonContain } from '../botons/botons';
 import { SocialMedia } from '../socialMedia/socialMedia';
 
 export const Footer = () => {
@@ -23,7 +23,7 @@ export const Footer = () => {
       <div>
         <span>Contactanos</span>
         <span>gerencia@tuoficialdecumplimiento.com.co</span>
-        <Boton_Contain {...data}/>
+        <BotonContain {...data}/>
       </div>
       <div>
         <></>

@@ -13,7 +13,7 @@ export const data_cardFloatServices = [
     id: 1,
     iconName: <MdDangerous/>,
     title: 'Riesgo Empresarial',
-    text: 'Buen Manejo de la Gestión Empresaria'
+    text: 'Buen Manejo de la Gestión Empresarial'
   },
   {
     id: 2,
