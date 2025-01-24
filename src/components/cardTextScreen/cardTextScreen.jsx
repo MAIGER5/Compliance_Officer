@@ -22,25 +22,8 @@ export const CardTextScreen = () => {
           </div>
           <h1 className={styles.firstLine}>GARANTIA DE CONFIANZA</h1>
         </div>
-        <BotonContain {...dataBoton} />
+        <BotonContain {...dataBoton} className={styles.botonContact} />
       </section>
-      {/* <section>
-        <span>Nos comprometemos a ser un socio estratégico que protege tu reputación y fomenta una cultura corporativa de transparencia y responsabilidad. </span>
-        <div>
-          <div className={styles.boxExpProyect}>
-            <span>18 <strong>+</strong></span>
-            <span>Años de <br /> Experiencia</span>
-          </div>
-          <div className={styles.boxExpProyect}>
-            <span>60 <strong>+</strong></span>
-            <span>Proyectos <br /> Completados</span>
-          </div>
-          <div className={styles.boxExpProyect}>
-            <span>150 <strong>+</strong></span>
-            <span>Compañias Consultadas</span>
-          </div>
-        </div>
-      </section> */}
     </div>
   )
 }
