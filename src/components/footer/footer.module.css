@@ -49,6 +49,10 @@
   margin-bottom: 40px;
 }
 
+.mail{
+  font-size: 10px;
+}
+
 @media(720px > width){
   .container{
     padding: 80px 40px;

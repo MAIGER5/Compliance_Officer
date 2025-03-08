@@ -56,7 +56,7 @@
 .textScreen> h1{
   margin-block: 0px;
   padding: 0;
-  font-size: clamp(1.9rem, 2.5vw, 2.8rem);
+  font-size: clamp(1.9rem, 2vw, 2.8rem);
   color: var(--blue4-color);
 }
 

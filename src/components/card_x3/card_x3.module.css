@@ -84,6 +84,7 @@
   font-size: clamp(.9rem, .5vw, 1.5rem);
   text-wrap: stable;
   color: var(--blue4-color);
+  text-align: justify;
 }
 
 .botonIr{

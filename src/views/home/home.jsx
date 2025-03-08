@@ -63,20 +63,13 @@ export const Home = () => {
       </div>
       <div>
         <h1 className={styles.titles}>
-          Nuestros Eventos de  <strong>Actualidad</strong> 
+         <strong>Actualidad en</strong> Noticias y Normas
         </h1>
         <DataContext.Provider value={dataCurrenEvent}>
           <CurrentEvents/>
         </DataContext.Provider>
       </div>
-      <div>
-        <h1 className={styles.titles}>
-          Descubra Nuestras Últimas  <strong>Noticias</strong> 
-        </h1>
-        <DataContext.Provider value={dataCurrenEvent}>
-          <CurrentEvents/>
-        </DataContext.Provider>
-      </div>
+
     </div>
   )
 }

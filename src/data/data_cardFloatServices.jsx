@@ -13,13 +13,13 @@ export const data_cardFloatServices = [
     id: 1,
     iconName: <MdDangerous/>,
     title: 'Riesgo Empresarial',
-    text: 'Buen Manejo de la Gestión Empresarial'
+    text: 'Manejo y Gestión de  los riesgos Empresariales'
   },
   {
     id: 2,
     iconName: <VscGitPullRequestGoToChanges/>,
-    title: 'Requisitos Tributarios',
-    text: 'Cumplimiento de requisitos tributarios'
+    title: 'Ética Empresarial',
+    text: 'Cumplimiento del programa de transparencia PTEE y ética empresarial'
   },
   {
     id: 3,
@@ -31,6 +31,6 @@ export const data_cardFloatServices = [
     id: 4,
     iconName: <GrValidate/>,
     title: 'Integridad Empresarial',
-    text: 'Refuerzo en la ética e integridad empresarial'
+    text: 'Refuerzo en la integridad empresarial'
   },
 ]

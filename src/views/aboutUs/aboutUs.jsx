@@ -28,9 +28,7 @@ export const AboutUs = () => {
     <div className={styles.container}>
       <section className={styles.screenBase}>
         <div className={styles.textScreen}>
-          <h1>PROTEGIENDO TU EMPRESA,</h1>
-          <h1>TU PATRIMONIO Y TU LIBERTAD</h1>
-          <h1>ASEGURANDO TU FUTURO</h1>
+          <h1>PROTEGIENDO TU EMPRESA, TU PATRIMONIO Y TU LIBERTAD <br />ASEGURANDO TU FUTURO</h1>
           <span> </span>
           <BotonContain {...data[0]}/>
         </div>

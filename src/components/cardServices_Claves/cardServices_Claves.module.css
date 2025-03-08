@@ -46,6 +46,7 @@
 .boxCard>:nth-child(3){
   color: var(--blue1-color);
   font-size: calc(8px + .3vw);
+  text-align: justify;
 }
 
 

@@ -58,10 +58,12 @@
 
 .textContain> :nth-child(2)> span{
   color: var(--grey1-color);
+  text-align: justify;
   font-size: clamp(.8rem, 1vw, 3rem );
   
 
 }
+
 
 
 

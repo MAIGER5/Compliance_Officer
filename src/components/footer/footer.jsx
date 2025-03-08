@@ -22,7 +22,7 @@ export const Footer = () => {
       </div>
       <div>
         <span>Contactanos</span>
-        <span>gerencia@tuoficialdecumplimiento.com.co</span>
+        <span className={styles.mail}>tuoficialdecumplimiento@tuoficialdecumplimiento.com.co</span>
         <BotonContain {...data}/>
       </div>
       <div>

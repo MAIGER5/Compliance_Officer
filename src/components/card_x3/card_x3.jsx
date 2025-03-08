@@ -21,7 +21,7 @@ export const Card_x3 = () => {
             </div>
             <h1>{ele.title}</h1>
             <p>{ele.text}</p>
-            <div className={styles.botonIr}>Ir</div>
+            <div className={styles.botonIr}></div>
             
           </div>
         ))
